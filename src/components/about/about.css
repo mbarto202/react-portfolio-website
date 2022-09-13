@@ -1,0 +1,98 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+h2 {
+    position: relative;
+    top: 50px;
+}
+
+.skills_Content p {
+    word-spacing: 5px;
+    font-size: large;
+    position: relative;
+    top: 100px;
+    margin-left: 300px;
+}
+
+hr.line {
+    border: .5px solid rgb(255, 255, 255);
+    width: 185px;
+    border-color: var(--color-primary);
+}
+
+hr.vLine {
+    transform:rotate(90deg);
+    border: .5px solid;
+    width: 390px;
+    margin-left: -102px;
+    margin-top: 170px;
+    border-color: var(--color-primary);
+}
+
+.about_Content p {
+    text-align: left;
+    font-size: medium;
+    width: 35%;
+    position:relative; 
+    margin-left: 850px;
+    top: -200px;
+    padding-bottom: 10px;
+}
+
+.htmlIcon {
+    background-color: transparent;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    margin-top: -150px;
+    width: 130px;
+    
+}
+
+.jsIcon {
+    background-color: transparent;
+    margin-left: -20px;
+    width: 130px;
+}
+
+.cssIcon {
+    background-color: transparent;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    margin-left: -5px;
+    width: 100px;
+}
+
+.reactIcon {
+    background-color: transparent;
+    margin-left: 5px;
+    width: 80px;
+}
+
+.javaIcon {
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: -340px;
+    padding-bottom: 12px;
+    width: 80px;
+}
+
+.pythonIcon {
+    background-color: transparent;
+    margin-left: 100px;
+    padding-bottom: 12px;
+    width: 80px;
+}
+
+.csharpIcon {
+    background-color: transparent;
+    margin-left: 100px;
+    width: 80px;
+}
+
+
+
