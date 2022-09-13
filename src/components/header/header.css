@@ -23,7 +23,7 @@ header {
 .titleBg {
     background: var(--color-primary);
     border: 2px solid black;
-    border-radius: 12rem 12rem 12rem 12rem;
+    border-radius: 0.8rem;
 }
 
 .header_container {
@@ -50,6 +50,8 @@ header {
     left: 0;
     bottom: -8rem;
 }
+
+
 
 .header_socials::after {
     content: '';
