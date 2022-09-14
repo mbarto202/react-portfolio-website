@@ -40,6 +40,10 @@ header {
     justify-content: center;
 }
 
+.cta a{
+    background-color: rgba(0, 0, 0, .3);;
+}
+
 /* Header Socials */
 .header_socials {
     display: flex;
