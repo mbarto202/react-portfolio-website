@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/demo-pic.png'
 import IMG2 from '../../assets/demo-pic2.png'
+import IMG3 from '../../assets/demo-pic3.PNG'
 
 const Portfolio = () => {
   return (
@@ -20,11 +21,13 @@ const Portfolio = () => {
         </article>
 
         <article className='portfolio_item'>
-          <div className='portfolio_img'></div>
+          <div className='portfolio_img'>
+            <img src={IMG3} alt=''/>
+          </div>
           <h3>Labyrinth</h3>
           <div className='portfolio_item-cta'>
             <a href="https://github.com/WCU-CSC476-F20/team-project-1-team-t/tree/master"  className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/mbarto202"  className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"  className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
