@@ -42,11 +42,11 @@ const About = () => {
       </div>
       
       <div className="about_Content">
-        <p>
+        <p className='intro'>
             Hello, my name is Michael and I am a front-end developer. I found my passion for web development soon after graduating 
             from my university. I quickly grasp new concepts, while bringing my own ideas to the table.
         </p>
-        <p>
+        <p className='otherInfo'>
             When I'm not coding, I will usually go to the gym, spend time with friends, or play my favorite game, Borderlands 2.
         </p>
       </div>
