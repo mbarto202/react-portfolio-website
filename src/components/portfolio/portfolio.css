@@ -30,3 +30,15 @@ h2 {
     position: relative;
     top: 50px;
 }
+
+/* Medium Devices */
+@media screen and (max-width: 1024px) {
+    .portfolio_item {
+        width: 60%;
+    }
+
+    .portfolio_item-cta {
+        gap: 3rem;
+    }
+
+}

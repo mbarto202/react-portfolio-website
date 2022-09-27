@@ -57,3 +57,22 @@ input, textarea {
     background-color: var(--color-primary);
     margin-top: 100px;
 }
+
+/* Medium Devices */
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+}
+
+/* Small Devices */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}

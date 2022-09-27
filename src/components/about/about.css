@@ -104,5 +104,21 @@ hr.vLine {
     width: 80px;
 }
 
+/* Medium Devices */
+@media screen and (max-width: 1024px) {
+    .about.container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_Content {
+        width: 70%;
+        margin: 1rem 0 1.5rem;
+        position: relative;
+        left: -10em;
+    }
+}
+
+
 
 
