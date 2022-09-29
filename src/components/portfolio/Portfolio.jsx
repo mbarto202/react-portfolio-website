@@ -16,18 +16,7 @@ const Portfolio = () => {
           <h3>Weather App</h3>
           <div className='portfolio_item-cta'>
             <a href="https://github.com/mbarto202/react-weather-app"  className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/mbarto202"  className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio_item'>
-          <div className='portfolio_img'>
-            <img src={IMG3} alt=''/>
-          </div>
-          <h3>Labyrinth</h3>
-          <div className='portfolio_item-cta'>
-            <a href="https://github.com/WCU-CSC476-F20/team-project-1-team-t/tree/master"  className='btn' target='_blank'>Github</a>
-            <a href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"  className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="http://weathermb.com"  className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -39,6 +28,17 @@ const Portfolio = () => {
           <div className='portfolio_item-cta'>
             <a href="https://github.com/WCU-CSC476-F20/team-project-2-team-t"  className='btn' target='_blank'>Github</a>
             <a href="https://play.unity.com/mg/other/team-project-2-build-1"  className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className='portfolio_img'>
+            <img src={IMG3} alt=''/>
+          </div>
+          <h3>Labyrinth</h3>
+          <div className='portfolio_item-cta'>
+            <a href="https://github.com/WCU-CSC476-F20/team-project-1-team-t/tree/master"  className='btn' target='_blank'>Github</a>
+            <a href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"  className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
