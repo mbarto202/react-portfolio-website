@@ -1,13 +1,14 @@
 footer {
-    background: var(--color-primary);
+    background: rgba(0, 0, 0, 0.5);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    border-top: solid 3px white;
 }
 
 footer a {
-    color: var(--color-bg);
+    color: rgb(247, 108, 161);
 }
 
 .footerLogo {
@@ -15,6 +16,7 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color: white;
 }
 
 .permalinks {
@@ -33,12 +35,12 @@ footer a {
 }
 
 .footerSocials a {
-    background: var(--color-bg);
+    background: rgba(0, 0, 0, 0.5);
+    border: solid 1px white;
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
-    border: 1px solid transparent;
 }
 
 .footerSocials a:hover {
@@ -48,5 +50,5 @@ footer a {
 
 .footerCopyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: rgb(247, 108, 161);
 }

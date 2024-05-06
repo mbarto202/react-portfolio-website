@@ -6,7 +6,7 @@
 
 .portfolio_item {
     margin-top: 150px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
     border-radius: 1.2rem;
     border: 1px solid transparent;
@@ -40,5 +40,16 @@ h2 {
     .portfolio_item-cta {
         gap: 3rem;
     }
+}
 
+/* Small Devices */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
 }

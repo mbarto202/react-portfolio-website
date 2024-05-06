@@ -35,10 +35,12 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: rgb(43, 42, 42);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/linen.png);
+    background-image: url(../src/assets/strange-horizon-wallpaper.JPG);
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 /* general styles */
@@ -66,10 +68,15 @@ section > h2, section > h5 {
 }
 
 section > h2 {
-    color: var(--color-bg);
-    background: var(--color-primary);
+    color: white;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, .5);
     margin-bottom: 3rem;
-    border: 1px solid black;
+    border: 3px solid;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-color: white;
 }
 
 .text-light {
@@ -92,7 +99,7 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid rgb(249, 78, 144);;
     transition: var(--transition);
 }
 
@@ -103,7 +110,8 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background:rgba(0, 0, 0, 0.5);
+    border-color: white;
     color: white;
 }
 

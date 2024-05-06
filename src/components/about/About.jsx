@@ -43,11 +43,11 @@ const About = () => {
       
       <div className="about_Content">
         <p className='intro'>
-            Hello, my name is Michael and I am a front-end developer. I found my passion for web development soon after graduating 
-            from my university. I quickly grasp new concepts, while bringing my own ideas to the table.
+            Hello, my name is Michael and I am a software developer. I found my passion for software development soon after starting
+            my journey at West Chester University. I quickly grasp new concepts, while bringing my own ideas to the table.
         </p>
         <p className='otherInfo'>
-            When I'm not coding, I will usually go to the gym, spend time with friends, or play my favorite game, Borderlands 2.
+            My hobbies outside of coding include bodybuilding, personal training, and hiking.
         </p>
       </div>
     </section>
