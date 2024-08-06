@@ -121,13 +121,8 @@ hr.vLine {
 
 /* Small Devices */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-
-    .header_socials,
-    .scroll_down {
-        display: none;
+    .skills_Content{
+        margin-left: -290px;
     }
 }
 

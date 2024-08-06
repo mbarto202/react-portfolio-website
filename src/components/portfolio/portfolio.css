@@ -44,12 +44,21 @@ h2 {
 
 /* Small Devices */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
+    .portfolio_item {
+        width: 43%;
     }
 
-    .header_socials,
-    .scroll_down {
+    .portfolio_item-cta {
+        gap: 3rem;
+    }
+
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0rem;
+    }
+
+    .btn {
         display: none;
     }
 }
