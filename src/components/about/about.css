@@ -124,6 +124,16 @@ hr.vLine {
     .skills_Content{
         margin-left: -290px;
     }
+
+    .about_Content p {
+        text-align: left;
+        font-size: small;
+        width: 60%;
+        position:relative; 
+        margin-left: 395px;
+        top: -220px;
+        padding: 20px;
+    }
 }
 
 
