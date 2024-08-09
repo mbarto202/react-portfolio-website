@@ -38,7 +38,6 @@ body{
     background: rgb(43, 42, 42);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/strange-horizon-wallpaper.JPG);
     background-size:contain;
     background-repeat: no-repeat;
 }
