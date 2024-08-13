@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <div className='titleBg'> 
-          <h2 className='name'>Hello, I'm <span style={{ color: 'salmon' }}>Michael</span>. I'm a Software Engineer</h2>
+          <h2 className='name'>Hello, I'm <span style={{ color: 'salmon', textShadow: '0 0 20px #FA8072' }}>Michael</span>. I'm a Software Engineer</h2>
         </div>
         <CTA />
         <HeaderSocial />

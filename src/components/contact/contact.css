@@ -30,7 +30,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: .9rem;
-    color: rgb(249, 78, 144);
+    color: #FA8072;
 }
 
 /* FORM */
@@ -48,7 +48,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid rgb(249, 78, 144);
+    border: 2px solid #FA8072;
     resize: none;
     color: white;
 }
@@ -87,7 +87,7 @@ input, textarea {
         padding: 1.5rem;
         border-radius: 0.5rem;
         background: transparent;
-        border: 2px solid rgb(249, 78, 144);
+        border: 2px solid #FA8072;
         resize: none;
         color: white;
     }

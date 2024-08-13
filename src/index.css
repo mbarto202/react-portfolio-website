@@ -13,7 +13,7 @@
 :root {
 --color-bg: #7a2d2d;
 --color-bg-variant: #2c2c6c;
---color-primary: #ee7676;
+--color-primary: #FA8072;
 --color-primary-variant: rgba(77, 181, 255, 0.4);
 --color-white: #fff;
 --color-light: rgba(255, 255, 255, 0.6);
@@ -98,7 +98,7 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid rgb(249, 78, 144);;
+    border: 1px solid #FA8072;
     transition: var(--transition);
 }
 
@@ -138,6 +138,12 @@ img {
     }
 
     section > h2{
-        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
+    
+    section {
+        margin-top: 12rem;
+        margin-bottom: -15rem;
+    }
+    
 }
