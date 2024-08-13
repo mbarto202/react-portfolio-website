@@ -8,8 +8,7 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <div className='titleBg'> 
-          <h1 className='name'>Michael Barto</h1>
-          <h5 className="title">Software Engineer</h5>
+          <h2 className='name'>Hello, I'm <span style={{ color: 'salmon' }}>Michael</span>. I'm a Software Engineer</h2>
         </div>
         <CTA />
         <HeaderSocial />
