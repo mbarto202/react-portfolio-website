@@ -13,7 +13,7 @@ const Portfolio = () => {
           <div className='portfolio_img'>
             <img src= {IMG2} alt=''/>
           </div>
-          <h3>Weather App</h3>
+          <h3><span style={{ position:'relative', right: '6px' }}>Weather App</span></h3>
           <div className='portfolio_item-cta'>
             <div className='gh'><a href="https://github.com/mbarto202/react-weather-app"  className='btn' target='_blank'>Github</a></div>
             <div className='demo'><a href="http://weathermb.com"  className='btn btn-primary' target='_blank'>Live Demo</a></div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
           <div className='portfolio_img'>
             <img src={IMG3} alt=''/>
           </div>
-          <h3>Labyrinth Game</h3>
+          <h3><span style={{ position:'relative', right: '9px' }}>Labyrinth Game</span></h3>
           <div className='portfolio_item-cta'>
             <div className='gh'><a href="https://github.com/WCU-CSC476-F20/team-project-1-team-t/tree/master"  className='btn' target='_blank'>Github</a></div>
             <div className='demo'><a href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"  className='btn btn-primary' target='_blank'>Live Demo</a></div>
