@@ -45,10 +45,11 @@ h2 {
 /* Small Devices */
 @media screen and (max-width: 600px) {
     .portfolio_item {
-        width: 60%;
+        width: 80%;
         height: 50%;
         position: relative;
-        right: 16px;
+        left: 5px;
+
     }
 
     .portfolio_container {
@@ -64,6 +65,10 @@ h2 {
     .gh {
         padding-right: 12px;
         position: relative;
-        right: 11px;
+        right: 15px;
+        width: auto;
+        font-size: small;
+        bottom: 22px;
+        left: -6.5px;
     }
 }
