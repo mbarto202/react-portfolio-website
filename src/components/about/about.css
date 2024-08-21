@@ -122,7 +122,27 @@ hr.vLine {
 /* Small Devices */
 @media screen and (max-width: 600px) {
     .skills_Content{
-        margin-left: -290px;
+        margin-left: -280px;
+    }
+
+    .skills_Content p {
+        top: 90px;
+        font-size: medium;
+    }
+
+    hr.line {
+        border: .5px solid rgb(255, 255, 255);
+        width: 170px;
+        border-color: #FA8072;
+    }
+
+    hr.vLine {
+        transform:rotate(90deg);
+        border: .5px solid;
+        width: 360px;
+        margin-left: -97px;
+        margin-top: 150px;
+        border-color: #FA8072;
     }
 
     .about_Content p {
@@ -131,7 +151,7 @@ hr.vLine {
         width: 60%;
         position:relative; 
         margin-left: 380px;
-        top: -220px;
+        top: -190px;
         padding: 20px;
     }
 
@@ -139,7 +159,8 @@ hr.vLine {
         background-color: transparent;
         margin-left: -20px;
         margin-bottom: 10px;
-        margin-top: -150px;
+        margin-top: -140px;
+        
         width: 100px;
         
     }
@@ -169,22 +190,22 @@ hr.vLine {
     .javaIcon {
         background-color: transparent;
         margin-left: 100px;
-        margin-top: -340px;
+        margin-top: -270px;
         padding-bottom: 12px;
-        width: 80px;
+        width: 70px;
     }
     
     .pythonIcon {
         background-color: transparent;
         margin-left: 100px;
         padding-bottom: 12px;
-        width: 80px;
+        width: 60px;
     }
     
     .csharpIcon {
         background-color: transparent;
         margin-left: 100px;
-        width: 80px;
+        width: 60px;
     }
 }
 
