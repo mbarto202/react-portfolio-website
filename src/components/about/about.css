@@ -134,6 +134,58 @@ hr.vLine {
         top: -220px;
         padding: 20px;
     }
+
+    .htmlIcon {
+        background-color: transparent;
+        margin-left: -20px;
+        margin-bottom: 10px;
+        margin-top: -150px;
+        width: 100px;
+        
+    }
+    
+    .jsIcon {
+        background-color: transparent;
+        margin-left: -20px;
+        width: 100px;
+    }
+    
+    .cssIcon {
+        background-color: transparent;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 15px;
+        padding-bottom: 12px;
+        margin-left: -14px;
+        width: 88px;
+    }
+    
+    .reactIcon {
+        background-color: transparent;
+        margin-left: 0px;
+        width: 60px;
+    }
+    
+    .javaIcon {
+        background-color: transparent;
+        margin-left: 100px;
+        margin-top: -340px;
+        padding-bottom: 12px;
+        width: 80px;
+    }
+    
+    .pythonIcon {
+        background-color: transparent;
+        margin-left: 100px;
+        padding-bottom: 12px;
+        width: 80px;
+    }
+    
+    .csharpIcon {
+        background-color: transparent;
+        margin-left: 100px;
+        width: 80px;
+    }
 }
 
 
