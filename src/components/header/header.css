@@ -11,9 +11,31 @@ header {
     top: 10px;
 }
 
+@keyframes slideInFromLeft{
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight{
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .name {
     color: var(white);
     padding-bottom: 5%;
+    animation: slideInFromLeft 1s ease-out;
+    position: relative;
 }
 
 .title {
@@ -35,6 +57,8 @@ header {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    position: relative;
+    animation: slideInFromRight 1s ease-out;
 }
 
 .cta a{
