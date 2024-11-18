@@ -11,7 +11,7 @@ import pythonIcon from "../../assets/pyLogo.png";
 const About = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
+      <h2 className="title">About Me</h2>
       <div className="skills_Content">
         <img className="skillIcon" src={htmlIcon} alt="HTML Icon" />
         <img className="skillIcon" src={jsIcon} alt="JavaScript Icon" />

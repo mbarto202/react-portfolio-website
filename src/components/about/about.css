@@ -5,10 +5,11 @@
   padding: 1rem;
 }
 
-h2 {
+.title {
   text-align: center;
   margin-bottom: 2rem;
-  padding-bottom: 30px;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .skills_Content {
