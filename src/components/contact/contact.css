@@ -1,101 +1,134 @@
 .container.contactContainer {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .contactOptions {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .contactOption {
-    position: relative;
-    top: 100px;
-    background: rgba(0, 0, 0, .5);
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    border: 1px solid transparent;
-    transition: var(--transition);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.contactOption:hover {
+  transform: translateY(-5px);
+  border-color: #fa8072;
 }
 
 .contactOption-icon {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-.contactOption a {
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: .9rem;
-    color: #FA8072;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
-/* FORM */
+.contactOption a {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fa8072;
+  text-decoration: none;
+}
+
+.contactOption a:hover {
+  text-decoration: underline;
+}
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-input, textarea {
-    position: relative;
-    top: 100px;
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid #FA8072;
-    resize: none;
-    color: white;
+input,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fa8072;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
 }
 
 .btn.sendMessage {
-    background-color:rgba(0, 0, 0, 0.5);
-    border-color: white;
-    margin-top: 100px;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #fa8072;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.sendMessage:hover {
+  background-color: #ff6347;
 }
 
 /* Medium Devices */
 @media screen and (max-width: 1024px) {
-    
+  .container.contactContainer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .contactOptions {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Small Devices */
 @media screen and (max-width: 600px) {
-    .contactOption {
-        position: relative;
-        top: 100px;
-        background: rgba(0, 0, 0, .5);
-        padding: 1.2rem;
-        border-radius: 1.2rem;
-        text-align: center;
-        border: 1px solid transparent;
-        transition: var(--transition);
-        right: 70px;
-        width: 225px;
-    }
+  .container.contactContainer {
+    grid-template-columns: 1fr; /* Stack the form and options vertically */
+    margin-top: 3rem; /* Extra space for smaller screens */
+  }
 
-    input, textarea {
-        position: relative;
-        top: 105px;
-        width: 100%;
-        left: 70px;
-        padding: 1.5rem;
-        border-radius: 0.5rem;
-        background: transparent;
-        border: 2px solid #FA8072;
-        resize: none;
-        color: white;
-    }
+  .contactOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem; /* Adjust spacing between boxes */
+  }
 
-    .btn.sendMessage {
-        background-color:rgba(0, 0, 0, 0.5);
-        border-color: white;
-        margin-top: 100px;
-        margin-left: 70px;
-    }
+  .contactOption {
+    flex: 1; /* Makes the boxes take equal space */
+    padding: 1rem;
+    text-align: center;
+  }
+
+  input,
+  textarea {
+    padding: 1rem;
+  }
+
+  .btn.sendMessage {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
 }
