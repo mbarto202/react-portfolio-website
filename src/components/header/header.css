@@ -90,7 +90,7 @@ header {
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
   header {
-    height: 70vh;
+    height: 100vh;
   }
 
   .header__socials,
