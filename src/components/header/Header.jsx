@@ -10,7 +10,7 @@ const Header = () => {
     console.log("Particles Loaded");
     await loadFull(main);
   };
-
+  //fix particles
   const particlesOptions = {
     fpsLimit: 60,
     particles: {
