@@ -10,64 +10,14 @@ const Header = () => {
     console.log("Particles Loaded");
     await loadFull(main);
   };
-  //fix particles
+
   const particlesOptions = {
-    fpsLimit: 60,
     particles: {
-      number: {
-        value: 50,
-        density: {
-          enable: true,
-          value_area: 800,
-        },
-      },
-      color: {
-        value: "#fa8072",
-      },
-      shape: {
-        type: "circle",
-      },
-      opacity: {
-        value: 0.5,
-        random: true,
-      },
-      size: {
-        value: 3,
-        random: true,
-      },
-      move: {
-        enable: true,
-        speed: 1,
-        direction: "none",
-        random: false,
-        straight: false,
-        out_mode: "bounce",
-        attract: {
-          enable: false,
-        },
-      },
-    },
-    interactivity: {
-      events: {
-        onHover: {
-          enable: true,
-          mode: "repulse",
-        },
-        onClick: {
-          enable: true,
-          mode: "push",
-        },
-        resize: true,
-      },
-      modes: {
-        repulse: {
-          distance: 100,
-          duration: 0.4,
-        },
-        push: {
-          quantity: 4,
-        },
-      },
+      number: { value: 100 },
+      size: { value: 3 },
+      move: { enable: true, speed: 1 },
+      shape: { type: "circle" },
+      color: { value: "#fa8072" },
     },
   };
 
