@@ -9,8 +9,10 @@
   text-align: center;
   margin-bottom: 2rem;
   padding-top: 7rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .skills_Content {
@@ -45,11 +47,13 @@ hr.vLine {
   text-align: center;
   font-size: 1rem;
   padding: 1rem;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 700px; /* Constrain width */
 }
 
 .about_Content p {
   margin-bottom: 1rem;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
   padding: 1rem;
 }

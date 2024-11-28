@@ -23,10 +23,10 @@ const About = () => {
       </div>
       <div className="about_Content">
         <p className="intro">
-          Hello, my name is Michael and I am a software developer. I found my
-          passion for software development soon after starting my journey at
-          West Chester University. I quickly grasp new concepts, while bringing
-          my own ideas to the table.
+          Hello, my name is Michael and I am a software engineer. I found my
+          passion for coding soon after starting my journey at West Chester
+          University. I quickly grasp new concepts, while bringing my own ideas
+          to the table.
         </p>
         <p className="otherInfo">
           My hobbies outside of coding include bodybuilding, personal training,
