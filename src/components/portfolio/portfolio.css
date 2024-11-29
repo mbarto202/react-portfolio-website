@@ -90,5 +90,10 @@
   .portfolio_item-cta .btn {
     width: 100%;
     text-align: center;
+    font-size: 12px;
+  }
+
+  .portfolio_item h3 {
+    font-size: 1rem;
   }
 }
