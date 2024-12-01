@@ -1,33 +1,61 @@
-nav{
-    background: rgba(0,0,0,0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+nav {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem; /* Adjust gap for better spacing */
+  padding: 0.7rem 1.7rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  z-index: 1000; /* Ensure navbar stays on top of other elements */
 }
 
 nav a {
-    background: transparent;
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light);
+  font-size: 1.5rem; /* Slightly larger icons for better visibility */
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
 nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
 }
 
 nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for emphasis */
+}
+
+/* Medium Devices */
+@media screen and (max-width: 768px) {
+  nav {
+    gap: 0.7rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  nav a {
+    padding: 0.8rem;
+    font-size: 1.3rem;
+  }
+}
+
+/* Small Devices */
+@media screen and (max-width: 480px) {
+  nav {
+    gap: 0.5rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  nav a {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+  }
 }
