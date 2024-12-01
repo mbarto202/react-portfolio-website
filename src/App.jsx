@@ -1,21 +1,24 @@
-import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Portfolio from './components/portfolio/Portfolio'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
-
+import React from "react";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
+import Services from "./components/services/Services";
+import SuccessStories from "./components/successStories/SuccessStories"; // Combined section
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <> 
-        <Header />
-        <Nav />
+    <>
+      <Header />
+      <Nav />
+      <main>
         <About />
-        <Portfolio />
+        <Services />
+        <SuccessStories />
         <Contact />
-        <Footer />
+      </main>
+      <Footer />
     </>
   );
 };
