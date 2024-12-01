@@ -3,6 +3,10 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocials'
 
+//keep main nav bar maybe switch to top(home, about, contact me)
+//two main buttons(services, check in)
+//scroll icon on left
+
 const Header = () => {
   return (
     <header>
