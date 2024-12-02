@@ -7,10 +7,11 @@ import SuccessStories from "./components/successStories/SuccessStories"; // Comb
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+// Main App component
 const App = () => {
   return (
     <>
-      <Header />
+      <Header />  
       <Nav />
       <main>
         <About />
