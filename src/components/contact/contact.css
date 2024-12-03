@@ -91,14 +91,36 @@ textarea::placeholder {
 /* Medium Devices */
 @media screen and (max-width: 1024px) {
   .container.contactContainer {
-    grid-template-columns: 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr; /* Stack the form and contact options */
+    width: 80%; /* Adjust container width for better alignment */
+    margin-top: 3rem; /* Add extra spacing at the top */
   }
 
   .contactOptions {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Stack options vertically */
+    gap: 2rem; /* Add consistent spacing between contact options */
+  }
+
+  .contactOption {
+    padding: 1.2rem; /* Adjust padding for medium screens */
+    text-align: center;
+    width: 100%; /* Ensure options take full width */
+    max-width: 400px; /* Prevent options from becoming too wide */
+    margin: 0 auto; /* Center align the options */
+  }
+
+  .contactOption h4,
+  .contactOption h5 {
+    margin: 0.5rem 0; /* Consistent spacing for headers */
+    font-size: 1rem; /* Slightly smaller font size */
+  }
+
+  form {
+    width: 100%; /* Form spans full width */
+    max-width: 500px; /* Restrict the form's width */
+    margin: 0 auto; /* Center the form */
   }
 }
 
