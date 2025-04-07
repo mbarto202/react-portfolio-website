@@ -23,14 +23,6 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a
-              href="http://weathermb.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
           </div>
         </article>
 
@@ -48,14 +40,6 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a
-              href="https://play.unity.com/mg/other/team-project-2-build-1"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
           </div>
         </article>
 
@@ -72,14 +56,6 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               Github
-            </a>
-            <a
-              href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
             </a>
           </div>
         </article>
