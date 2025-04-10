@@ -22,8 +22,8 @@ header {
 }
 
 .header__title span {
-  color: salmon;
-  text-shadow: 0 0 20px #fa8072;
+  color: rgb(245, 83, 83);
+  text-shadow: 0 0 20px #fc6767;
 }
 
 .cta {
@@ -56,7 +56,7 @@ header {
 }
 
 .header__socials a:hover {
-  color: #fa8072;
+  color: rgb(245, 83, 83);
 }
 
 .header__socials::after {
@@ -79,7 +79,7 @@ header {
 }
 
 .scroll__down:hover {
-  color: #fa8072;
+  color: rgb(245, 83, 83);
 }
 
 /* Keyframes */
