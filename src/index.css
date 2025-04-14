@@ -102,7 +102,7 @@ a:hover {
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid #fa8072;
+  border: 1px solid rgb(245, 83, 83);
   transition: var(--transition);
 }
 
