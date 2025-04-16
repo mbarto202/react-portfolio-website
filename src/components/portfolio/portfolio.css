@@ -47,7 +47,7 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
-  background: #fa8072;
+  background: rgb(245, 83, 83);
   color: #fff;
   transition: background 0.3s ease;
 }
