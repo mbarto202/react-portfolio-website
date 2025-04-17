@@ -31,7 +31,7 @@
 
 .contactOption:hover {
   transform: translateY(-5px);
-  border-color: #fa8072;
+  border-color: rgb(245, 83, 83);
 }
 
 .contactOption-icon {
@@ -43,7 +43,7 @@
   margin-top: 1rem;
   display: inline-block;
   font-size: 1rem;
-  color: #fa8072;
+  color: rgb(245, 83, 83);
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ textarea {
   padding: 1.2rem;
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid #fa8072;
+  border: 2px solid rgb(245, 83, 83);
   color: white;
   font-size: 1rem;
 }
