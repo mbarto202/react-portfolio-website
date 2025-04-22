@@ -23,14 +23,17 @@ const About = () => {
       </div>
       <div className="about_Content">
         <p className="intro">
-          Hello, my name is Michael and I am a software engineer. I found my
-          passion for coding soon after starting my journey at West Chester
-          University. I quickly grasp new concepts, while bringing my own ideas
-          to the table.
+          Hi, I'm Michael — a passionate software engineer with hands-on
+          experience building full-stack applications using React, Next.js,
+          TypeScript, and Firebase. I currently work as a Software Engineer at
+          NeonDevTech, where I collaborate with a team to deliver scalable,
+          real-world solutions across both web and mobile platforms.
         </p>
         <p className="otherInfo">
-          My hobbies outside of coding include bodybuilding, personal training,
-          and hiking.
+          I thrive in agile environments, love solving technical challenges, and
+          take pride in writing clean, maintainable code. Outside of tech, I
+          enjoy bodybuilding, personal training, and hiking to stay sharp
+          mentally and physically.
         </p>
       </div>
     </section>
