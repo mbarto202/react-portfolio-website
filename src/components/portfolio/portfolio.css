@@ -7,6 +7,14 @@
   margin-bottom: 2rem;
 }
 
+.portfolio_intro {
+  text-align: center;
+  color: var(--color-light);
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
 .portfolio_item {
   background: rgba(0, 0, 0, 0.6);
   padding: 1.5rem;
@@ -31,7 +39,7 @@
 .portfolio_item h3 {
   font-size: 1.2rem;
   margin: 1rem 0;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .portfolio_item-cta {
@@ -47,8 +55,8 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
-  background: rgb(245, 83, 83);
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-white);
   transition: background 0.3s ease;
 }
 
@@ -56,27 +64,18 @@
   background: #ff624d;
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  color: #fff;
-}
-
-/* Medium Devices */
+/* Responsive updates */
 @media screen and (max-width: 1024px) {
   .portfolio_container {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
   }
 }
 
-/* Small Devices */
 @media screen and (max-width: 600px) {
   .portfolio_container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
-    margin-bottom: 3rem; /* Extra space for smaller screens */
+    margin-bottom: 3rem;
   }
 
   .portfolio_item {
@@ -85,6 +84,18 @@
 
   .portfolio_item-cta {
     flex-direction: column;
+  }
+
+  .placeholder-img {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ccc;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    font-size: 0.9rem;
+    font-style: italic;
   }
 
   .portfolio_item-cta .btn {

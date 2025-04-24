@@ -1,19 +1,64 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/demo-pic.png";
-import IMG2 from "../../assets/demo-pic2.png";
-import IMG3 from "../../assets/demo-pic3.PNG";
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2 className="title">Portfolio</h2>
+      <p className="portfolio_intro">
+        Here are a few projects that showcase my full-stack experience, frontend
+        design, and collaboration skills.
+      </p>
       <div className="portfolio_container">
         <article className="portfolio_item">
-          <div className="portfolio_img">
-            <img src={IMG2} alt="Weather App" />
+          <div className="portfolio_img placeholder-img">Image Placeholder</div>
+          <h3>Trainer App</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="#"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="#"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
           </div>
-          <h3>Weather App</h3>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_img placeholder-img">Image Placeholder</div>
+          <h3>BirdieTrackr</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="#"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="#"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_img placeholder-img">Image Placeholder</div>
+          <h3>React Weather App</h3>
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/mbarto202/react-weather-app"
@@ -21,41 +66,15 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
+              GitHub
             </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_img">
-            <img src={IMG1} alt="Far Out Fairway" />
-          </div>
-          <h3>Far Out Fairway</h3>
-          <div className="portfolio_item-cta">
             <a
-              href="https://github.com/WCU-CSC476-F20/team-project-2-team-t"
+              href="#"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_img">
-            <img src={IMG3} alt="Labyrinth Game" />
-          </div>
-          <h3>Labyrinth Game</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com/WCU-CSC476-F20/team-project-1-team-t/tree/master"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
+              Live Demo
             </a>
           </div>
         </article>
