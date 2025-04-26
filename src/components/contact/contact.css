@@ -85,7 +85,9 @@ textarea::placeholder {
 }
 
 .btn.sendMessage:hover {
-  background-color: #ff6347;
+  background-color: var(--color-white); /* white on hover */
+  color: var(--color-bg); /* dark red text on hover */
+  border: 1px solid var(--color-bg); /* dark red border */
 }
 
 /* Medium Devices */
