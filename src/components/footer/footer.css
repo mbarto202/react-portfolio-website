@@ -8,7 +8,7 @@ footer {
 }
 
 footer a {
-  color: #fa8072;
+  color: rgb(245, 83, 83);
 }
 
 .footerLogo {
@@ -50,5 +50,5 @@ footer a {
 
 .footerCopyright {
   margin-bottom: 4rem;
-  color: #fa8072;
+  color: rgb(245, 83, 83);
 }
