@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs"; // Update the import here
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -47,16 +47,17 @@ const Contact = () => {
               Send a message
             </a>
           </article>
+
           <article className="contactOption">
-            <RiMessengerLine className="contactOption-icon" />
-            <h4>Messenger</h4>
+            <BsLinkedin className="contactOption-icon" />
+            <h4>LinkedIn</h4>
             <h5>Michael Barto</h5>
             <a
-              href="https://m.me/michael.barto.92"
+              href="https://www.linkedin.com/in/michael-barto-6a2365230/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send a message
+              Connect with me
             </a>
           </article>
         </div>
