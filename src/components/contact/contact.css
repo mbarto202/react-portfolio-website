@@ -34,6 +34,13 @@
   border-color: rgb(245, 83, 83);
 }
 
+input:focus,
+textarea:focus {
+  outline: 2px solid #999; /* soft gray outline */
+  outline-offset: 2px;
+  transition: outline 0.2s ease;
+}
+
 .contactOption-icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
