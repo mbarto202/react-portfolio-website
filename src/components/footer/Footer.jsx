@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa"; // ✅ Updated icon import
 
 const Footer = () => {
   return (
@@ -26,11 +26,19 @@ const Footer = () => {
       </ul>
 
       <div className="footerSocials">
-        <a href="https://linkedin.com">
+        <a
+          href="https://www.linkedin.com/in/michael-barto-6a2365230/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://facebook.com">
-          <FaFacebookF />
+        <a
+          href="https://github.com/mbarto202"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub /> {/* ✅ Replaced Facebook with GitHub */}
         </a>
       </div>
 
