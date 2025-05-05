@@ -38,7 +38,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub /> {/* ✅ Replaced Facebook with GitHub */}
+          <FaGithub />
         </a>
       </div>
 

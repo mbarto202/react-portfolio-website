@@ -1,15 +1,23 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import "./portfolio.css";
 
 const Portfolio = () => {
+  const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
+
   return (
-    <section id="portfolio">
+    <section
+      id="portfolio"
+      ref={ref}
+      className={`portfolio-section ${inView ? "fadeIn" : ""}`}
+    >
       <h2 className="title">Portfolio</h2>
       <p className="portfolio_intro">
         Here are a few projects that showcase my full-stack experience, frontend
         design, mobile app development, and collaboration skills.
       </p>
       <div className="portfolio_container">
+        {/* Cards stay the same */}
         <article className="portfolio_item">
           <div className="portfolio_img placeholder-img">Image Placeholder</div>
           <h3>BartoBuild</h3>
