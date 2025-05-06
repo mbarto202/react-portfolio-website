@@ -1,15 +1,16 @@
 import React, { useRef } from "react";
+import { useInView } from "react-intersection-observer";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsLinkedin } from "react-icons/bs"; // Update the import here
+import { BsLinkedin } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+  const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_m13i7tp",
@@ -25,12 +26,15 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-
     e.target.reset();
   };
 
   return (
-    <section id="contact">
+    <section
+      id="contact"
+      ref={ref}
+      className={`contact-section ${inView ? "fadeIn" : ""}`}
+    >
       <h2 className="title">Contact Me</h2>
       <div className="container contactContainer">
         {/* Contact Options */}

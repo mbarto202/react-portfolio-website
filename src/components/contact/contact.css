@@ -91,6 +91,17 @@ textarea::placeholder {
   transition: background-color 0.3s ease;
 }
 
+.contact-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.contact-section.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .btn.sendMessage:hover {
   background-color: var(--color-white); /* white on hover */
   color: var(--color-bg); /* dark red text on hover */
