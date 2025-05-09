@@ -17,9 +17,7 @@ const Portfolio = () => {
         design, mobile app development, and collaboration skills.
       </p>
       <div className="portfolio_container">
-        {/* Cards stay the same */}
         <article className="portfolio_item">
-          <div className="portfolio_img placeholder-img">Image Placeholder</div>
           <h3>BartoBuild</h3>
           <div className="portfolio_item-cta">
             <a
@@ -34,7 +32,6 @@ const Portfolio = () => {
         </article>
 
         <article className="portfolio_item">
-          <div className="portfolio_img placeholder-img">Image Placeholder</div>
           <h3>BirdieTrackr</h3>
           <div className="portfolio_item-cta">
             <a
@@ -49,7 +46,6 @@ const Portfolio = () => {
         </article>
 
         <article className="portfolio_item">
-          <div className="portfolio_img placeholder-img">Image Placeholder</div>
           <h3>Weather iOS App</h3>
           <div className="portfolio_item-cta">
             <a
