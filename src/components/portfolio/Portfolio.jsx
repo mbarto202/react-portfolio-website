@@ -18,7 +18,30 @@ const Portfolio = () => {
       </p>
       <div className="portfolio_container">
         <article className="portfolio_item">
+          <h3>Weather iOS App</h3>
+          <p className="portfolio_description">
+            A mobile weather application built with React Native and
+            OpenWeatherMap API, styled to mimic native iOS design.
+          </p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/mbarto202/react-native-weather-ios"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio_item">
           <h3>BartoBuild</h3>
+          <p className="portfolio_description">
+            A fitness coaching website built with React and AWS. Features
+            serverless backend (Lambda + API Gateway), DynamoDB, and SES for
+            contact handling.
+          </p>
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/mbarto202/bartobuild-website"
@@ -33,23 +56,13 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <h3>BirdieTrackr</h3>
+          <p className="portfolio_description">
+            A mobile disc golf app for scoring and mapping throws. Built with
+            React Native, Node.js, PostgreSQL, and Prisma ORM.
+          </p>
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/jbanning22/BirdieTrackr"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <h3>Weather iOS App</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com/mbarto202/react-native-weather-ios"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"

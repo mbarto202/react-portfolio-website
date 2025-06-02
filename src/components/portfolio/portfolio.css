@@ -82,6 +82,12 @@
   transform: translateY(0);
 }
 
+.portfolio_description {
+  font-size: 0.95rem;
+  color: var(--color-light);
+  margin-top: 0.5rem;
+}
+
 /* Responsive updates */
 @media screen and (max-width: 1024px) {
   .portfolio_container {
