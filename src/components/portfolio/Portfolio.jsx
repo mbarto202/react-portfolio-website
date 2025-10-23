@@ -53,24 +53,6 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-
-        <article className="portfolio_item">
-          <h3>BirdieTrackr</h3>
-          <p className="portfolio_description">
-            A mobile disc golf app for scoring and mapping throws. Built with
-            React Native, Node.js, PostgreSQL, and Prisma ORM.
-          </p>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com/jbanning22/BirdieTrackr"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </article>
       </div>
     </section>
   );
