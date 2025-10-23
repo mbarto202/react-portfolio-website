@@ -53,6 +53,25 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+
+        <article className="portfolio_item">
+          <h3>TrackThree</h3>
+          <p className="portfolio_description">
+            A React Native and Spring Boot mobile application designed to help
+            users track daily macros. Integrates PostgreSQL for storage and AWS
+            services for scalable backend operations.
+          </p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/mbarto202/trackthree"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
