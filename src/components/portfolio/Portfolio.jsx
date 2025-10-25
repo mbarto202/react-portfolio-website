@@ -63,7 +63,7 @@ const Portfolio = () => {
           </p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/mbarto202/trackthree"
+              href="https://github.com/mbarto202/trackthree-backend"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
