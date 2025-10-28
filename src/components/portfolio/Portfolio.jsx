@@ -18,14 +18,15 @@ const Portfolio = () => {
       </p>
       <div className="portfolio_container">
         <article className="portfolio_item">
-          <h3>Weather iOS App</h3>
+          <h3>FAQChat</h3>
           <p className="portfolio_description">
-            A mobile weather application built with React Native and
-            OpenWeatherMap API, styled to mimic native iOS design.
+            A responsive AI-powered FAQ chatbot interface built with Next.js and
+            Tailwind CSS. Focused on user interaction and design, allowing users
+            to create and interact with custom FAQ agents.
           </p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/mbarto202/react-native-weather-ios"
+              href="https://github.com/mbarto202/faqchat-frontend"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
