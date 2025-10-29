@@ -20,13 +20,13 @@ const Portfolio = () => {
         <article className="portfolio_item">
           <h3>FAQChat</h3>
           <p className="portfolio_description">
-            A responsive AI-powered FAQ chatbot interface built with Next.js and
-            Tailwind CSS. Focused on user interaction and design, allowing users
-            to create and interact with custom FAQ agents.
+            An interface built with Next.js and Tailwind CSS for an AI-powered
+            FAQ chatbot platform, allowing users to create and interact with
+            custom FAQ agents.
           </p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/mbarto202/faqchat-frontend"
+              href="https://github.com/mbarto202/FAQChat"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
