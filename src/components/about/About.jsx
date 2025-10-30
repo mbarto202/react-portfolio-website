@@ -31,10 +31,15 @@ const About = () => {
       </div>
       <div className="about_Content">
         <p className="intro">
-          Hi, I'm Michael — a passionate software engineer with hands-on
-          experience building full-stack applications. I currently work as a
-          Software Engineer at NeonDevTech, where I collaborate with a team to
-          deliver real-world solutions across both web and mobile platforms.
+          Hi, I'm Michael, a passionate full stack software engineer with real
+          world experience developing and deploying applications across web and
+          mobile platforms. I have worked on client facing projects through
+          NeonDevTech, where I collaborated with other developers to build
+          scalable, production ready solutions using technologies like React,
+          Node.js, and AWS. I am continuously expanding my skills through
+          personal projects that combine frontend design, backend development,
+          and cloud integration, always focused on writing clean, efficient code
+          that delivers real impact.
         </p>
         <p className="otherInfo">
           Outside of tech, I enjoy bodybuilding, personal training, and hiking
